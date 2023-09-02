@@ -1,19 +1,19 @@
-<div align="center">
-  <img src="images/banner.png" alt="Bank Churn Prediction" width="600">
-</div>
+# Bank Customer Churn Prediction with Nerual Networks
 
-# Bank Customer Churn Prediction using Keras and TensorFlow
+Welcome to the Bank Customer Churn Prediction project! This repository contains the code and resources for developing a predictive model to identify customers who are likely to churn from their bank accounts.
 
-Predicting bank customer churn with the power of deep learning. Build, train, and optimize neural networks using Keras and TensorFlow to predict whether a bank customer is likely to churn.
+## Project Overview
+
+- **Objective**: To build a machine learning model that predicts customer churn for banks.
+
+- **Dataset**: We are using a comprehensive dataset that includes customer account information across three countries: Germany, France, and Spain. The dataset includes features such as credit scores, bank balances, gender, and other relevant customer information.
+
+- **Approach**: We are employing neural networks, a powerful machine learning technique, to create a predictive model. Our custom optimization function explores various combinations of nodes and layers to maximize the model's predictive accuracy.
 
 ## Table of Contents
 
 - [Introduction](#introduction)
 - [Prerequisites](#prerequisites)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Example](#example)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Introduction
@@ -31,6 +31,8 @@ Before you begin, ensure you have the following installed:
 - [Keras](https://keras.io/)
 
 Install the required libraries using the following command:
+`pip install -r requirements.txt`
 
-```bash
-pip install tensorflow keras
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
